@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <div class="container">
+    <div class="contact">
+      <h1>Contact</h1>
+      <form id="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+
+        <label for="phn">Phone No.</label>
+        <input type="tel" id="phn" placeholder="Enter your phone number" />
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- To-Do List -->
+  <div class="todo-app">
+    <h2>To-Do List </h2>
+    <div class="row">
+      <input type="text" id="input-box" placeholder="Add your text" />
+      <button onclick="addTask()">Add</button>
+    </div>
+    <ul id="list-container"></ul>
+  </div>
+ <script src="task2.js"></script>
+</body>
+</html>
